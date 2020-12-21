@@ -13,9 +13,9 @@ namespace rabbit_mongo_connector
     class Program
     {
 
-        private static string MongoConnectionString = "mongodb://mongo:mongo@localhost:27017";
-        private static string DBName = "";
-        private static string CollectionName = "";
+        private static string MongoConnectionString = "mongodb://mongo:mongo@localhost:33157";
+        private static string DBName = "dump";
+        private static string CollectionName = "dump";
         private static string RabbitMQHost = "localhost";
         private static string RabbitQueueName = "";
 
